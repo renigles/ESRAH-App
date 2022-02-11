@@ -1,0 +1,110 @@
+.container{
+    font-family: 'Karma', serif;
+}
+.menu-bar{
+    background-color: rgb(104, 149, 129, 0.75);
+    margin: 0px 0px 10px 0px;
+    position: fixed;
+    top:0px;
+    right: 0px;
+    left:0px;
+    
+
+}
+a{
+    text-decoration: none;
+}
+#header-title{
+    font-weight: 500;
+    font-size: 30px;
+    margin: 10px 20px 0px 20px;
+    display: inline;
+    color: black;
+}
+button:hover{
+    background-color: white;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0, 0.65);
+}
+.header-button{
+    font-family: 'Karma', serif;
+    border-radius: 50px;
+    border-width: 0px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgb(236, 209, 152);
+    padding: 2px 25px 0px 25px;
+    margin-top: 10px;
+    margin-right: 7px;
+    float: right;
+    display: inline;
+}
+#main-page-title{
+    font-weight: 300;
+    font-size: 70px;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.acronym-text{
+    margin-top: 0px;
+    margin-left: 50px;
+    padding-top: 0px;
+    font-size: 23px;
+}
+.acronym{
+    font-weight: 900;
+}
+.main-button{
+    font-family: 'Karma', serif;
+    display: block;
+    font-weight: 900;
+    font-size: 20px;
+    border-radius: 50px;
+    border-width: 0px;
+    background-color: rgb(172, 188, 138) ;
+   margin: 20px 50px 20px 50px;
+    max-width: 260px;
+   
+}
+
+#quiz-main-button{
+    padding: 5px 21px 3px 21px;
+    margin-top: 100px
+}
+#learn-main-button{
+    padding: 5px 53px 3px 52px;
+}
+#goals-main-button{
+    padding: 5px 60px 3px 60px;
+}
+
+.main-page-text{
+    text-align: center;
+    font-size: 23px;
+}
+.emphasis{
+    font-weight: 900;
+}
+.misconception{
+    background-color: rgb(236, 209, 152);
+    border-radius: 200%;
+    width: 450px;
+    padding: 70px 20px 70px 20px;
+    position: fixed;
+    top: 90px;
+    right: 300px; 
+    left: 700px;
+    
+}
+.statistic{
+    background-color: rgb(219, 107, 92, 0.75);
+    border-radius: 200%;
+    width: 350px;
+    padding: 70px 15px 70px 15px;
+    position: fixed;
+    top: 360px;
+    right: 50px; 
+    left: 950px;
+}

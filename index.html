@@ -5,124 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        .container{
-            font-family: 'Karma', serif;
-        }
-        .menu-bar{
-            background-color: rgb(104, 149, 129, 0.75);
-            margin: 0px 0px 10px 0px;
-            position: fixed;
-            top:0px;
-            right: 0px;
-            left:0px;
-        
-        }
-        #header-title{
-            font-weight: 500;
-            font-size: 30px;
-            margin: 10px 20px 0px 20px;
-            display: inline;
-        }
-        button:hover{
-            background-color: white;
-            border-width: 1px;
-            border-color: rgb(0, 0, 0, 0.65);
-        }
-        .header-button{
-            font-family: 'Karma', serif;
-            border-radius: 50px;
-            border-width: 0px;
-            font-size: 15px;
-            font-weight: 500;
-            background-color: rgb(236, 209, 152);
-            padding: 2px 25px 0px 25px;
-            margin-top: 10px;
-            margin-right: 7px;
-            float: right;
-            display: inline;
-        }
-        #main-page-title{
-            font-weight: 300;
-            font-size: 70px;
-            margin-top: 80px;
-            margin-left: 50px;
-            margin-bottom: 0px;
-            padding-bottom: 0px;
-        }
-        .acronym-text{
-            margin-top: 0px;
-            margin-left: 50px;
-            padding-top: 0px;
-            font-size: 23px;
-        }
-        .acronym{
-            font-weight: 900;
-        }
-        .main-button{
-            font-family: 'Karma', serif;
-            display: block;
-            font-weight: 900;
-            font-size: 20px;
-            border-radius: 50px;
-            border-width: 0px;
-            background-color: rgb(172, 188, 138) ;
-           margin: 20px 50px 20px 50px;
-            max-width: 260px;
-        }
-        
-        #quiz-main-button{
-            padding: 5px 21px 3px 21px;
-            margin-top: 100px
-        }
-        #learn-main-button{
-            padding: 5px 53px 3px 52px;
-        }
-        #goals-main-button{
-            padding: 5px 60px 3px 60px;
-        }
-    
-        .main-page-text{
-            text-align: center;
-            font-size: 23px;
-        }
-        .emphasis{
-            font-weight: 900;
-        }
-        .misconception{
-            background-color: rgb(236, 209, 152);
-            border-radius: 200%;
-            width: 450px;
-            padding: 70px 20px 70px 20px;
-            position: fixed;
-            top: 90px;
-            right: 300px; 
-            left: 700px;
-            
-        }
-        .statistic{
-            background-color: rgb(219, 107, 92, 0.75);
-            border-radius: 200%;
-            width: 350px;
-            padding: 70px 15px 70px 15px;
-            position: fixed;
-            top: 360px;
-            right: 50px; 
-            left: 950px;
-            
-        }
-        
-    </style>
+
 </head>
 <body class="container">
     <header class="menu-bar">
-<h2 id="header-title">ESRAH</h2>
-<button class="header-button" id="goals-header-button">Goals</button>
-<button class="header-button" id="learn-header-button">Learn</button>
-<button class="header-button" id="quiz-header-button">Quiz</button>
+<a href="index.html"><h2 id="header-title">ESRAH</h2></a>
+<a href="goalsHome.html"><button class="header-button" id="goals-header-button" >Goals</button></a>
+<a href="learnHome.html"><button class="header-button" id="learn-header-button">Learn</button></a>
+<a href="quizHome.html"><button class="header-button" id="quiz-header-button">Quiz</button></a>
     </header>
     <section class="main-text">
     <h1 id="main-page-title">ESRAH</h1> 
@@ -133,9 +27,9 @@
     <span class="acronym">H</span>PV<br></p>
 </section>
 <section >
-<button class="main-button" id="quiz-main-button">Test Your Knowledge</button>
-<button class="main-button" id="learn-main-button">Learn More</button>
-<button class="main-button" id="goals-main-button">Set Goals</button>
+<a href="quizHome.html"><button class="main-button" id="quiz-main-button">Test Your Knowledge</button></a>
+<a href="learnHome.html"><button class="main-button" id="learn-main-button">Learn More</button></a>
+<a href="goalsHome.html"><button class="main-button" id="goals-main-button">Set Goals</button></a>
 </section>
 <section class="main-page-text">
 <p class="statistic"><span class="emphasis">This is not the case!</span> <br>
